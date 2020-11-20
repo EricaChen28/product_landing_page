@@ -1,0 +1,206 @@
+<html>
+<style>
+
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+  width: 100%;
+  }
+  }
+
+
+  .flex-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  }
+
+  h1{
+  line-height:200%;
+  color: white;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #049595;
+  margin-left: 150px;
+  margin-right: 150px;
+  }
+
+  body{
+  font-family:sans-serif;
+  }
+
+
+  .navbar {
+  overflow: hidden;
+  background-color: #049595;
+  position: fixed;
+  top: 8;
+  right: 30;
+  width: 10%;
+  }
+
+  .nav-link{
+  font-family:sans-serif;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: left;
+  text-decoration: none;
+  }
+
+  .navbar a:hover {
+  color: #00ffff;
+  }
+
+  #header-img {
+  top: 150;
+  right: -8;
+  width: 200px;
+  }
+
+  div1{
+  font-size: 23px;
+  line-height:200%;
+  }
+
+  div2{
+  font-size: 20px;
+  line-height:200%;
+  }
+
+  p1{
+  font-size: 18px;
+  line-height:150%;
+  font-weight: light;
+  }
+
+  p2{
+  font-weight: bold;
+  color: red;
+  }
+
+  #images {
+  max-width: 50%;
+  height: auto;
+  }
+
+  #email{
+    width: 300px;
+  }
+
+  .footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-color: #049595;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  }
+
+
+
+</style>
+
+
+<head>
+
+
+</head>
+
+<body>
+  <center>
+
+  <header id="header">
+
+  <h1>Mr. Caliva Official Online Shop</h1>
+
+    <img id="header-img" src="https://1.bp.blogspot.com/-MxS_SUhZtFo/X7dQDZYnJEI/AAAAAAAAAjY/8pmCtO4L0qAiIGeEvaqZGW2FhGmNVI1FwCLcBGAsYHQ/s16000/logo.png"/>
+
+    <nav id="nav-bar" class="navbar">
+      <a class="nav-link" href="#products">Products</a>
+      <a class="nav-link" href="#pricing">Pricing</a>
+      <a class="nav-link" href="#contacts">Contacts</a>
+    </nav>
+
+    </header>
+
+    <div1> Let's know more about Bradley's college life!
+    </div1>
+    <section id="products">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/gUZIAKfwojA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br>
+      <br>
+      <p1><em>
+        Bradley Caliva is a very very handsome, intelligent and talented musician.<br>
+        Since Mr.Caliva graduated from college,<br>
+        he has been dedicating for almost a decade<br>
+        to educate the younger generation about music knowledge around the world.<br>
+        He is always the students' favorite teacher ever!<br>
+        For that reason, <br>
+        his students created some cartoon figure souvenirs to appreaciate his hard works.
+      </em></p1><br>
+      <br>
+      <br>
+      <p2>
+        The following items are available for personal-requested-orders ONLY.<br>
+        Please leave us contact info below for more information.
+        </p2><br>
+        <br>
+        <br>
+
+
+      <div2 class="flex-container">
+        <div><img id="images" src="images/IMG_0264.jpg" alt="Conductor"><br>
+          The Conductor</div>
+        <div><img id="images" src="images/IMG_0265.jpg" alt="Euphonium"><br>
+          Euphonium</div>
+        <div><img id="images" src="images/IMG_0266.jpg" alt="Sitting on a chair"><br>
+          Sitting on a Chair</div>
+    </div2>
+    </section>
+
+
+      <section id="pricing">
+        <form id="form" action="https://www.freecodecamp.com/email-submit"><br>
+      <input id="email" type="email" placeholder="you@whatever.com" name="email"><br>Leave an email address for products pricing above!</input>
+      <br>
+      <input id="submit" type="submit"></input>
+    </form>
+    </section>
+  <section id="contacts">
+    </section>
+    </center>
+  </body>
+
+
+  <div class="footer">
+    <a href="#">Privacy</a>
+    <a href="#">Terms</a>
+    <a href="#">Contacts</a>
+    <p>Copyright 2020, B.Caliva Company</p>
+  </div>
+
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+  </script>
+
+</html>
